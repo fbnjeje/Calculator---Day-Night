@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body class="night">
+    <section class="container">
+        <form name="calculator">
+            <input title="oli" class="ans" type="textfield" name="ans" value="" autocomplete="off" readonly>
+            <article class="desing">
+                <input type="button" value="7" onclick="document.calculator.ans.value+='7'" class="oli">
+                <input type="button" value="8" onclick="document.calculator.ans.value+='8'"class="oli">
+                <input type="button" value="9" onclick="document.calculator.ans.value+='9'"class="oli">
+                <input type="button" value="+" onclick="document.calculator.ans.value+='+'" class="narajitajm">
+                <br>
+                <input type="button" value="4" onclick="document.calculator.ans.value+='4'"class="oli">
+                <input type="button" value="5" onclick="document.calculator.ans.value+='5'"class="oli">
+                <input type="button" value="6" onclick="document.calculator.ans.value+='6'"class="oli">
+                <input type="button" value="-" onclick="document.calculator.ans.value+='-'" class="narajitajm">
+                <br>
+                <input type="button" value="1" onclick="document.calculator.ans.value+='1'"class="oli">
+                <input type="button" value="2" onclick="document.calculator.ans.value+='2'"class="oli">
+                <input type="button" value="3" onclick="document.calculator.ans.value+='3'"class="oli">
+                <input type="button" value="x" onclick="document.calculator.ans.value+='*'" class="narajitajm">
+                <br>
+                <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+                <input type="reset" value="c" class="grisbebe">
+                <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)" class="grisbebe">
+                <input type="button" value="÷" onclick="document.calculator.ans.value+='/'" class="narajitajm">
+            </form>
+        </article>
+    </section>
+    <footer class="night__day">
+        <i class='bx bxs-adjust-alt' ></i>
+    </footer>
+    <script src="/js/particles.js"></script>
+</body>
